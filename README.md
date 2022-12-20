@@ -1,3 +1,3 @@
 # Challenge-Oracle-ONE
 
-- Decodificador de texto
+- Descodificador de texto
