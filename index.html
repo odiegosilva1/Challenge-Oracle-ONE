@@ -1,38 +1,38 @@
-        <!DOCTYPE html>
-        <html lang="pt-br">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="./css/style.css">
-            <link rel="stylesheet" href="./css/reset.css">
-            <title>Criptoid.io</title>
-        </head>
-        <body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    
+    <script src="js/script.js" ></script>
+    <title>Encriptoid.io - Challange Alura</title>
+  </head>
+  <body>
+    <main>  
+  <header>
+    <h1 class="logo">Encriptoid.io</h1>
+  </header>                       
+   <div class="main">
+         <input type="text" class="form-control-imput" id="str" placeholder="Digite sua mesagem">
+            <div class="botoes">
+               <button type="button" class="cria-cripto" onclick="encriptar()">Encriptar</button>
+                  <button type="button" class="reverte-cripto" onclick="desencriptar()">Desencriptar</button>
+                      </div>
+                 
+                      <textarea  id="resultado" rows="8" cols="40"></textarea>
 
-            <header>
-                <h1>Criptoid.io</h1>
-            </header>
-            
-            <main class="d-flex j-center wrap">
-                <h1 class="w-100 title-font">Criptografia / Descriptografia por Cifra de César</h1>
-                <p class="w-100">Insira a mensagem na caixa abaixo e clique na opção desejada:</p>
-                <div class="d-flex j-center w-100" id="message-container">
-                  <textarea type="text" id="message-box" class="message-box w-40 roboto" placeholder="Escreva sua mensagem aqui"></textarea>
-                </div>
-                <div class="w-100">
-                  <button class="btn-style roboto" id="cypher">Criptografar</button>
-                  <button class="btn-style roboto" id="decypher">Descriptografar</button>
-                </div>
-                <div class="result-container d-flex wrap j-center w-40" id="results"></div>
-              </main>
- 
-            <script src="./js/script.js"></script>
+                  <p class="mens02">Você pode copiar e compartilhar essa mensagem.</p>
+                  <button type="button" class="copiar" onclick="copiarMensagem()" >Copiar</button>
+                          </div>
 
-                <footer>
-                    <p>&copy; odiegosilva.dev</p>
-                </footer>
-            </body>
-        </html>
+                          <div class="footer">
+                            <p class="desc">&copy; odiegosilva.dev 2023</p>
+                          </div>
+
+  </body>
+</html>
