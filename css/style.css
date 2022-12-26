@@ -63,13 +63,13 @@ header h1 {
 textarea {
     font-size: 15px;
 }
-.btn-area {
+.botoes {
     margin: 20px;
     padding: 20px;
     text-align: center;
 }
 
-.btn-area button {
+.botoes button {
     padding: 15px;
     margin: 10px;
     font-size: 20px;
