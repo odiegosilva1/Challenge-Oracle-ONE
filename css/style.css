@@ -8,6 +8,8 @@
 body {
   text-align: center;
   background-color: #070707;
+  
+  
 }
 
 
@@ -90,9 +92,7 @@ p {
 
 .main {
   max-width: 100%;
-  min-width: 560px;
-  height: auto;
-  min-height: 50%;
+  min-width: 530px
 }
  
 
