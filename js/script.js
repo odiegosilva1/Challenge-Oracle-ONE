@@ -6,7 +6,7 @@ function encriptar(){
     limpaInput();
     
     /**
-     * Para retira acentos e caracteres utilzando replace, tambe coloca tudo em minusculo;
+     * Para retira acentos e caracteres utilzando replace, também coloca tudo em minusculo;
      * para maiores informaçoes segue o link
      * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize
      * https://blog.dbins.com.br/remover-acentos-e-caracteres-especiais-com-javascript
